@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("Imagens/enigma-do-medo\ cena.jpg");
+    background-color: #0a0909;
+    background-position: top left, center;
+    background-repeat: no-repeat, repeat;
+    background-size: auto, cover;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    height: 100jh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+
+nav {
+    padding-left: 600px;
+    flex: 1;
+    position: fixed;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 ul ul{
+    display: none;
+}
+
+.nav2 ul {
+    padding: 0;
+}
+
+.nav2 ul li:hover > ul{
+    display: block;
+}
+
+ul li a:hover{
+    background-color: gray;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+ul ul li{
+    position: absolute;
+}
+
+.emcima{
+    height: 100px;
+    float:left;
+}
+
+.VIDEOENIGMA{
+    width: 800px;
+    height: 600px;
+    border: 2px solid white;
+    float: left;
+    margin-right: 10px;
+}
+
+.descricao h1{
+    color:burlywood;
+}
+
+.descricao h4{
+    color: whitesmoke;
+    margin-right: 50px;
+    line-height: 25px;
+}
+
+p{
+    text-align: justify;
+}
+
+.discord{
+    float: right;
+}
+
+.banner{
+    float: right;
+}
+
+.lupiemia{
+    float: left;
+}
+
+.lupiwalk{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.enredo h2{
+    color: burlywood;
+}
+
+.enredo h4{
+    color: whitesmoke;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.rodape h5{
+    text-align: center;
+}
+
+.HOMEICON{
+    float: right;
+}
