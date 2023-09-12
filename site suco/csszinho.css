@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(imagens/background.jpg);
+    background-color: #363636;
+    background-position-x: -200px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div.menus{
+    width: 1920px;
+    height: 100px;
+}
+
+.imglogo{
+    float:left;
+}
+
+nav.menu{
+    padding-top: 20px;
+    padding-left: 1050px;
+    position: fixed;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+a:hover{
+    transition: 0.4s;
+    border-radius: 10px;
+    background-color: #228B22;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul{
+    margin-left:200px ;
+    width: 330px;
+    height: 50px;
+    background: radial-gradient(#32CD32,  	#00FF00);
+    border-radius: 30px 0 30px 0;
+}
+
+img.imgInicial{
+    float: left;
+    width: 700px;
+    height: 400px;
+    padding-left: 300px;
+    margin-top: 300px;
+}
+
+div.inicial{
+    margin-top: 250px;
+    margin-left: 1000px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:bisque;
+    
+}
+
+span.coloridoInicial{
+    color: purple;
+}
+
+span.coloridoInicial2{
+    color: pink;
+}
+
+span.coloridoInicial3{
+    color: aqua;
+}
+
+div.box{
+    margin-top: 150px;
+    margin-left: 380px;
+    width: 400px;
+    height: 450px;
+    background-color: wheat;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0 10px 15px 5px black;
+    text-align: justify;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.box2{
+    margin-top: 150px;
+    margin-right: 380px;
+    float: right;
+    width: 400px;
+    height: 450px;
+    background-color:  	#EEE8AA;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0 10px 15px 5px black;
+    text-align: justify;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p.ebom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px 170px 0px 20px;
+    color: black;
+    text-align: justify;
+}
+
+p.ebom2{
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px 0px 0px 20px;
+}
+
+img.imgBox2{
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin: 15px 0 0 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn{
+    display: inline-block;
+    background: radial-gradient(#00FF00, #32CD32);
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: background 0.5;
+    margin-left: 20px;
+    margin-top: 25px;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn:hover{
+    background: #228B22;
+}
+
+div.box3{
+    margin-top: 200px;
+    margin-left: 380px;
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 450px;
+    background-color: #FFEBCD;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0 10px 15px 5px black;
+    text-align: justify;
+}
+
+div.box4{
+    margin-top: 200px;
+    margin-right: 380px;
+    float: right;
+    width: 400px;
+    height: 450px;
+    background-color:  	 	#FFFACD;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0 10px 15px 5px black;
+    text-align: justify;
+}
+
+.dellvale{
+    color:crimson;
+}
+
+.dellvalenutri{
+    color: hotpink;
+}
+
+.dellvalekapo{
+    color:lime
+}
+
+.dellvalefruit{
+    color: gray;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.conteudo{
+    margin-top: 150px;
+    margin-left: 180px;
+    width: 1500px;
+    height: 450px;
+    background-color: salmon;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0 10px 15px 5px crimson;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 20px 10px 5px 20px;
+    max-width: 200%;
+    max-height: 200%;
+}
+
+.corzinhaBene{
+    color: lime;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    width: 1200px;
+    height: 100px;
+    background: radial-gradient(#111111 , #000000);
+    margin-left: -200px;
+    font-size: 18px;
+    padding-top: 100px;
+    padding-left: 930px;
+    color: whitesmoke;
+    margin-top: 150px;
+}
+
+.sobre4{
+    color: beige;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 600px;
+}
+
+.produtos{
+    margin-top: 400px;
+    color: beige;
+    text-align: center;
+    font-size: 25px;
+}
+
+.ancora{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+    /* Modificações para telas entre 360px e 740px */
+
+    body {
+        background-position-x: 0;
+        background-size: cover;
+    }
+
+    div.menus {
+        width: 100%;
+        height: auto;
+    }
+
+    nav.menu {
+        padding-left: 5%; /* Use porcentagem para o recuo esquerdo */
+        text-align: center;
+    }
+
+    nav ul {
+        margin-left: 5%; /* Use porcentagem para o recuo esquerdo */
+        width: 90%; /* Use porcentagem para a largura do menu UL */
+    }
+
+    div.inicial {
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 3vw; /* Use viewport width (vw) para dimensionar o texto */
+    }
+
+    /* Ajustes para caixas e textos */
+
+    .box,
+    .box2,
+    .box3,
+    .box4 {
+        width: 90%; /* Use porcentagem para a largura das caixas */
+        margin: 5% auto; /* Centralize verticalmente e use porcentagem para as margens */
+        float: none;
+        text-align: center; /* Centralize o texto nas caixas */
+    }
+
+    .imgBox2 {
+        width: 80%; /* Use porcentagem para a largura das imagens */
+        height: auto;
+    }
+
+    p.ebom {
+        margin: 2%; /* Use porcentagem para o espaçamento interno do texto nas caixas */
+    }
+
+    p.ebom2 {
+        margin: 2%; /* Use porcentagem para o espaçamento interno do texto nas caixas */
+        font-size: 2vw; /* Use viewport width (vw) para dimensionar o texto */
+    }
+
+    /* Ajustes para outros elementos */
+
+    .conteudo {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%; /* Use porcentagem para a largura do conteúdo */
+    }
+
+    /* Ajustes para o rodapé */
+
+    .rodape {
+        width: 100%;
+        padding-left: 5%; /* Use porcentagem para o recuo esquerdo */
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    /* Ajuste outros estilos conforme necessário para telas menores */
+}
+
+
+
+
+
+
+
+
+
+

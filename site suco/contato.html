@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>contato</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS FORMULARIO.css">
+    <link rel="stylesheet" type="text/css" href="cssform.css">
+    <script language="javascript" type="text/javascript">
+        function validar() {
+            var form = document.getElementById("contatoForm");
+            var nome = form.nome.value;
+            var email = form.email.value;
+            var endereco = form.endereco.value;
+            var comentario = form.comentario.value;
+
+            if (nome == "") {
+                alert('Preencha o campo com seu nome');
+                form.nome.focus();
+                return false;
+            }
+
+            if (email == "") {
+                alert('Preencha o campo com seu email');
+                form.email.focus();
+                return false;
+            }
+
+            if (endereco == "") {
+                alert('Preencha o campo com seu endereço');
+                form.endereco.focus();
+                return false;
+            }
+
+            if (comentario == "") {
+                alert('Preencha o campo com seu comentário');
+                form.comentario.focus();
+                return false;
+            }
+
+        }
+    </script>
+</head>
+<body background="imagens/background suco.jpg">
+<br>
+    <div class="containe">
+        <div class="navbar"> <br><br>
+            <nav>
+                <ul>
+                    <h2> <li><a href="index.html"> Home</a> </li>
+                    <li><a href="modelo.html"> Modelo </a> </li>
+                </ul>
+            </nav>
+        </div>
+    
+    <div class="container">
+        <div class="form-w">
+            <h2 class="form-h"> Contato</h2> 
+            <form name="contato" action="VALEU!.html" method="post" class="contact-form" id="contatoForm" onsubmit="return validar()">
+                <input type="text"
+                    id="Nome"
+                    autocomplete="off"
+                    placeholder="Nome"
+                    class="contact-form-input"
+                    name="nome">
+                
+                <input type="text"
+                    id="Email"
+                    autocomplete="off"
+                    placeholder="Email"
+                    class="contact-form-input"
+                    name="email">
+
+                <input type="text"
+                    id="Endereço"
+                    autocomplete="off"
+                    placeholder="Endereço"
+                    class="contact-form-input"
+                    name="endereco">
+                
+                <textarea class="contact-form-input contact-form-textarea"
+                    id="comentario"
+                    placeholder="Deixe seu comentário aqui!"
+                    name="comentario"></textarea>
+                
+                <input type="submit"
+                    class="form-submit-btn"
+                    value="Enviar contato">
+            </form>
+        </div>
+    </div>
+    <script src="contato.js"></script>
+    <font class="FOOTER" color="white"> <h3>Gabriel Silva 2023- &copy; Todos os direitos reservados </h3></font>
+</body>
+</html>
